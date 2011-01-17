@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:id="@+id/text1"
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text2"
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/now_playing"
+            android:layout_width="match_parent"
+            android:layout_height="256dip"
+            android:gravity="center" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+            <ImageButton
+                android:id="@+id/thumbs_up"
+                android:src="@drawable/thumbs_up"
+                android:layout_width="75dip"
+                android:layout_height="75dip"
+                android:scaleType="fitCenter" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+            <ImageButton    
+                android:id="@+id/thumbs_down"
+                android:src="@drawable/thumbs_down"
+                android:layout_width="75dip"
+                android:layout_height="75dip"
+                android:scaleType="fitCenter" />
+         </LinearLayout>
+         </LinearLayout>
+         </LinearLayout>

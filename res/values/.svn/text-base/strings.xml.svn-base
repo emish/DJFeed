@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, feedDJ!</string>
+    <string name="app_name">feedDJ</string>
+    <string-array name="previous_songs_array">
+        <item>Song1</item>
+        <item>Song2</item>
+        <item>Song3</item>
+        <item>Song4</item>
+        <item>Song5</item>
+        <item>Song6</item>
+        <item>Song7</item>
+    </string-array>
+    <string-array name="next_songs_array">
+        <item>Song1</item>
+        <item>Song2</item>
+        <item>Song3</item>
+        <item>Song4</item>
+        <item>Song5</item>
+        <item>Song6</item>
+        <item>Song7</item>
+    </string-array>
+    
+</resources>
